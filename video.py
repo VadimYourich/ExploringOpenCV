@@ -1,3 +1,7 @@
+# Классификаторы для распознавания: 
+# https://github.com/opencv/opencv/tree/4.x/data/haarcascades
+
+
 import cv2
 
 face_cascades = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
